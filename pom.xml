@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>net.barakiroth.batchloop</groupId>
+	<artifactId>batchloop</artifactId>
+	<version>1.0-SNAPSHOT</version>
+
+	<name>batchloop</name>
+	<!-- FIXME change it to the project's website -->
+	<url>http://www.example.com</url>
+
+	<properties>
+
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>13</maven.compiler.source>
+		<maven.compiler.target>13</maven.compiler.target>
+		<maven.compiler.release.version>13</maven.compiler.release.version>
+		<maven.build.timestamp.format>yyyy-MM-dd'T'HH:mm:ss'Z'</maven.build.timestamp.format>
+
+		<!-- Test stuff -->
+		<junit.jupiter.version>5.5.2</junit.jupiter.version>
+		<junit.pre.jupiter.version>4.12</junit.pre.jupiter.version>
+		<junit-platform-commons.version>1.5.2</junit-platform-commons.version>
+		<hamcrest-version>2.1</hamcrest-version>
+	</properties>
+
+	<dependencies>
+
+		<!-- Test stuff -->
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-engine</artifactId>
+			<version>${junit.jupiter.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.pre.jupiter.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.junit.platform</groupId>
+			<artifactId>junit-platform-commons</artifactId>
+			<version>${junit-platform-commons.version}</version>
+		</dependency>
+	</dependencies>
+	
+</project>
