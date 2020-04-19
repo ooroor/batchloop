@@ -24,7 +24,7 @@
 		<!-- Test stuff -->
 		<junit.jupiter.version>5.5.2</junit.jupiter.version>
 		<junit.pre.jupiter.version>4.12</junit.pre.jupiter.version>
-		<junit-platform-commons.version>1.5.2</junit-platform-commons.version>
+		<junit-platform-commons.version>1.6.1</junit-platform-commons.version>
 		<hamcrest-version>2.1</hamcrest-version>
 	</properties>
 
